@@ -8,4 +8,5 @@ MIT License
 <h2>Installation</h2>
 Download all files into a folder on your computer. Navigate to the folder in your terminal. Install Node.js in the folder. Install a http-server. Run the http-server. Navigate to the server listed in your terminal to see the styled Todo list.
 
+http://127.0.0.1:8080/Styled-Todo-List-main/
 
