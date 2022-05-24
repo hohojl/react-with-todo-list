@@ -15,15 +15,8 @@ function TodoForm({addTodo}){
         type="text"
         className="input"
         value={value}
-        placeholder="Add Todo..."
+        placeholder="Add To List..."
         onChange={e => setValue(e.target.value)} />
     </form>
   )
-}
-
-const removeTodo = e => {
-  const index = Number(e.target.id);
-  let temp = [...todos];
-  temp.splice(index,1);
-  setTodos(temp);
 }
